@@ -171,9 +171,9 @@
 }
 
 @media(max-width: 575px) {
-    /* .web-search-sec-select {
-        display: none;
-    } */
+    .featured-products-img {
+        height: auto;
+    }
 
     .web-header-center-inner {
         flex-wrap: wrap;
@@ -237,5 +237,13 @@
     .all-catagory-sec::after {
         top: 28px;
         right: 20px;
+    }
+
+    .featured-products-box {
+        width: 50%;
+    }
+
+    .navbar-nav .nav-item .nav-link {
+        font-size: 18px;
     }
 }
